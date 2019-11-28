@@ -1,0 +1,17 @@
+ul {
+    background-color: rgb(164, 164, 251);
+    width: 175px;
+    height: 350px;
+    padding: 0;
+}
+
+li {
+    padding-bottom: 15px;
+    font-size: 32px;
+    list-style-type: none;
+    text-align: center;
+}
+
+li:hover {
+    background-color: chartreuse;
+}
