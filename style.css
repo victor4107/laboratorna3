@@ -1,8 +1,17 @@
+.wrapper {
+    display: flex;
+}
+
+div {
+    display: inline;
+}
+
 ul {
     background-color: rgb(164, 164, 251);
     width: 175px;
-    height: 350px;
+    height: 365px;
     padding: 0;
+    margin: 0;
 }
 
 li {
@@ -14,4 +23,10 @@ li {
 
 li:hover {
     background-color: chartreuse;
+}
+
+.block {
+    background-color: rgb(143, 0, 0);
+    height: 365px;
+    width: 500px;
 }
