@@ -1,5 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
 .wrapper {
     display: flex;
+    padding: 50px;
 }
 
 div {
@@ -8,10 +13,15 @@ div {
 
 ul {
     background-color: rgb(164, 164, 251);
-    width: 175px;
-    height: 365px;
+    width: 220px;
+    height: 331px;
     padding: 0;
     margin: 0;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-color: #797979;
+    border-width: 1.5px;
 }
 
 li {
@@ -22,11 +32,21 @@ li {
 }
 
 li:hover {
-    background-color: chartreuse;
+    background-color: rgb(156, 134, 150);
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-color: #797979;
+    border-width: 1.5px;
 }
 
 .block {
-    background-color: rgb(143, 0, 0);
-    height: 365px;
-    width: 500px;
+    background-color: rgb(156, 134, 150);
+    height: 331px;
+    width: 600px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-color: #797979;
+    border-width: 1.5px;
 }
