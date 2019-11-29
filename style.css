@@ -50,3 +50,7 @@ li:hover {
     border-color: #797979;
     border-width: 1.5px;
 }
+
+.hidden {
+    display: none
+}
