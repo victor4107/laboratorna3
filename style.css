@@ -7,7 +7,11 @@
        padding: 50px;
        display: flex;
        flex-direction: column;
+       max-width: 1000px;
+       margin: 0 auto;
+       padding: 0;
    }
+   /* хеадер взяв у вас на гите */
    
    .header {
        display: flex;
