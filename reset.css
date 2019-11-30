@@ -109,8 +109,11 @@ section {
     display: block;
 }
 
+html {}
+
 body {
     line-height: 1;
+    font-size: 1rem;
 }
 
 ol,
@@ -134,4 +137,8 @@ q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
 }

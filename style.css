@@ -1,61 +1,72 @@
-* {
-    box-sizing: border-box;
-}
-
-.wrapper {
-    display: flex;
-    padding: 50px;
-}
-
-div {
-    display: inline;
-}
-
-ul {
-    background-color: rgb(164, 164, 251);
-    width: 220px;
-    height: 331px;
-    padding: 0;
-    margin: 0;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-left-style: solid;
+    * {
+        box-sizing: border-box;
+    }
+    
+    .wrapper {
+        display: flex;
+        padding: 50px;
+    }
+    
+    div {
+        display: inline;
+    }
+    
+    ul {
+        background-color: rgb(164, 164, 251);
+        width: 200px;
+        height: 460px;
+        padding: 0;
+        margin: 0;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        border-color: #797979;
+        border-width: 1.5px;
+    }
+    
+    .text {
+        padding-bottom: 10px;
+        font-size: 1rem;
+        text-align: center;
+        color: grey;
+    }
+    
+    li {
+        font-size: 2rem;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-color: #797979;
+        border-width: 1px;
+        padding: 10px;
+        padding-left: 15px;
+    }
+    
+    li:hover {
+        background-color: #d9d2e9;
+        /* /* border-top-style: solid; */
+        border-right-style: none;
+        /* border-left-style: solid;
     border-color: #797979;
-    border-width: 1.5px;
-}
-
-li {
-    padding-bottom: 12px;
-    font-size: 27px;
-    list-style-type: none;
-    text-align: center;
-}
-
-li:hover {
-    background-color: rgb(156, 134, 150);
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-left-style: solid;
-    border-color: #797979;
-    border-width: 1.5px;
-}
-
-.block {
-    background-color: rgb(156, 134, 150);
-    height: 331px;
-    width: 600px;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-right-style: solid;
-    border-color: #797979;
-    border-width: 1.5px;
-}
-
-.hidden {
-    display: none;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
+    border-width: 1.5px; */
+        */
+    }
+    
+    .block {
+        background-color: #d9d2e9;
+        height: 460px;
+        width: 600px;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-right-style: solid;
+        border-color: #797979;
+        border-width: 1.5px;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
