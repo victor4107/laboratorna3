@@ -1,22 +1,19 @@
-    * {
-        box-sizing: border-box;
-    }
-    
     .wrapper {
         display: flex;
         padding: 50px;
+        display: flex;
+        flex-direction: row;
     }
-    
-    div {
+    /* div {
         display: inline;
-    }
+    } */
     
     ul {
         background-color: rgb(164, 164, 251);
         width: 200px;
         height: 460px;
         padding: 0;
-        margin: 0;
+        margin: 0px;
         border-top-style: solid;
         border-bottom-style: solid;
         border-left-style: solid;
@@ -48,7 +45,6 @@
         /* border-left-style: solid;
     border-color: #797979;
     border-width: 1.5px; */
-        */
     }
     
     .block {
